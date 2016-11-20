@@ -19,4 +19,4 @@ $  node openfreelancer-client.js **http://localhost:3070/asdui3274iewernsdufu3**
 
 # Access UI
 
-In browser {{SERVER_URL}} (http://localhost:3070/asdui3274iewernsdufu3)
+Open in browser {{SERVER_URL}}
