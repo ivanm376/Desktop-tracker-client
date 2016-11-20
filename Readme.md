@@ -9,7 +9,7 @@ $ npm i
 
 #Run
 
-$ node openfreelancer-client.js **{{SERVER_URL}}**
+$ node openfreelancer-client.js **{{SERVER_LINK}}**
 
 
 example:
@@ -19,4 +19,4 @@ $  node openfreelancer-client.js **http://localhost:3070/asdui3274iewernsdufu3**
 
 # Access UI
 
-Open in browser {{SERVER_URL}}
+Open in browser {{SERVER_LINK}}
