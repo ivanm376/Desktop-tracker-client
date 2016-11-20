@@ -10,8 +10,7 @@ var fs = require('fs');
   exec('import -window root -resize 200 thumbnail.jpg', function () {
     fs.createReadStream('thumbnail.jpg').pipe(request.post(process.env.URL + '/thumbnail'));
   });
-  setTimeout(timer, 5000);
-//   setTimeout(timer, 10 * 60 * 1000); // once 10 minutes
+  setTimeout(timer, 10 * 60 * 1000); // once 10 minutes
 }());
 
 process.on('uncaughtException', function (err) {
