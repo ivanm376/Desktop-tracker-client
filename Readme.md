@@ -1,5 +1,8 @@
 #Run
 
->URL=http://localhost:3070/asdui3274iewernsdufu3 node openfreelancer-client.js
+>$ node openfreelancer-client.js http://localhost:3070/asdui3274iewernsdufu3
 
-where **asdui3274iewernsdufu3** is your User Key
+where
+
+> **localhost:3070** - OpenFreelancer-server
+> **asdui3274iewernsdufu3** - is your User Key
