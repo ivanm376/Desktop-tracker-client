@@ -14,5 +14,5 @@ var fs = require('fs');
 }());
 
 process.on('uncaughtException', function (err) {
-  console.log('uncaughtException');
+//   console.log('uncaughtException');
 });
