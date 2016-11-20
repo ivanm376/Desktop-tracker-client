@@ -7,9 +7,13 @@ var fs = require('fs');
   exec('import -window root -quality 50 screenshot.jpg', function () {
     fs.createReadStream('screenshot.jpg').pipe(request.post(process.env.URL + '/screehshot'));
   });
-  exec('import -window root -size 200 thumbnail.jpg', function () {
+  exec('import -window root -resize 200 thumbnail.jpg', function () {
     fs.createReadStream('thumbnail.jpg').pipe(request.post(process.env.URL + '/thumbnail'));
   });
-  console.log('... sent');
-  setTimeout(timer, 10 * 60 * 1000); // once 10 minutes
+  setTimeout(timer, 5000);
+//   setTimeout(timer, 10 * 60 * 1000); // once 10 minutes
 }());
+
+process.on('uncaughtException', function (err) {
+  console.log('uncaughtException');
+});
