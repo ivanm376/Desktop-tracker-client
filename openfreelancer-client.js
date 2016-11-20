@@ -4,8 +4,12 @@ var fs = require('fs');
 
 (function timer() {
   // TODO add Mac/Windows command
-  exec('import -quality 50 -window root screenshot.jpg', function () {
-    fs.createReadStream('screenshot.jpg').pipe(request.post(process.env.URL));
+  exec('import -window root -quality 50 screenshot.jpg', function () {
+    fs.createReadStream('screenshot.jpg').pipe(request.post(process.env.URL + '/screehshot'));
   });
+  exec('import -window root -size 200 thumbnail.jpg', function () {
+    fs.createReadStream('thumbnail.jpg').pipe(request.post(process.env.URL + '/thumbnail'));
+  });
+  console.log('... sent');
   setTimeout(timer, 10 * 60 * 1000); // once 10 minutes
 }());
