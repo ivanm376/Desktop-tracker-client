@@ -1,3 +1,8 @@
+#OpenFreelancer-client
+Makes screenshot and thumbnail and sends them to OpenFreelancer-server
+
+Supported platforms: **Ubuntu** (**import**)
+
 #Run
 
 >$ node openfreelancer-client.js http://localhost:3070/asdui3274iewernsdufu3
