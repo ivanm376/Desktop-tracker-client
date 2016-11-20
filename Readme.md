@@ -1,7 +1,7 @@
 #OpenFreelancer-client
 Makes screenshot and thumbnail and sends them to OpenFreelancer-server
 
-Supported platforms: **Ubuntu** (**import**)
+Supported platforms: **Ubuntu** (**import** check https://imagemagick.org/)
 
 #Run
 
