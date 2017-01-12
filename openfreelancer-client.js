@@ -13,4 +13,4 @@ const fs = require('fs');
     setTimeout(timer, 10 * 60 * 1000); // once 10 minutes
 }());
 
-process.on('uncaughtException', err => console.log('uncaughtException'));
+process.on('uncaughtException', err => console.log(err.stack));
