@@ -1,5 +1,5 @@
-#OpenFreelancer-client
-Makes screenshot and thumbnail and sends them to [OpenFreelancer-server](https://github.com/ivanm376/OpenFreelancer-server)
+#Test-Screenshot-client
+Makes screenshots and thumbnails and stores them to [server](https://github.com/ivanm376/Test-Screenshot-server)
 
 Supported platforms: **Linux** (https://imagemagick.org/script/import.php)
 
@@ -9,12 +9,12 @@ $ npm i
 
 #Run
 
-$ node openfreelancer-client.js **{{SERVER_LINK}}**
+$ node screenshot-client.js **{{SERVER_LINK}}**
 
 
 example:
 
-$  node openfreelancer-client.js **http://localhost:3070/asdui3274iewernsdufu3**
+$  node screenshot-client.js **http://localhost:3070/asdui3274iewernsdufu3**
 
 
 # Access UI
