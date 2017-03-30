@@ -1,13 +1,14 @@
-#Test-Screenshot-client
+# Test-Screenshot-client
+
 Makes screenshots and thumbnails and stores them to [server](https://github.com/ivanm376/Test-Screenshot-server)
 
 Supported platforms: **Linux** (https://imagemagick.org/script/import.php)
 
-#Install
+# Install
 
 $ npm i
 
-#Run
+# Run
 
 $ node screenshot-client.js **{{SERVER_LINK}}**
 
